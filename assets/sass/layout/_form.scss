@@ -1,0 +1,54 @@
+.form {
+   position:relative;
+    &__title {
+        color: $white;
+        font-family: $oldstandard;
+        font-size: $xx-large;
+        padding: .5rem .7rem;
+    }
+    &__text {
+        color: $white;
+        font-family: $oldstandard;
+        font-size: $medium;
+        padding: .5rem .8rem;
+    }
+    &__input {
+        margin: .5rem .8rem;
+        padding-right: 3rem;
+    }
+    &__submit {
+        writing-mode: vertical-rl;
+        background-color: $white;
+        text-align: center;
+        width: 3rem;
+        height: 155px;
+        position:absolute;
+        right: 0;
+        top:0;
+        padding-right: 15px;
+        text-decoration: none;
+        color: $smokyblack;
+    }
+}
+
+@media (min-width: 992px) {
+    .form {
+        position:relative;
+        &__title {
+            color: $white;
+            font-family: $oldstandard;
+            font-size: $xx-large;
+            padding: 1rem 6rem;
+        }
+        &__text {
+            color: $white;
+            font-family: $oldstandard;
+            font-size: $medium;
+            padding: 1rem 6rem;
+        }
+        &__input {
+            margin: .5rem 6rem;
+            padding-right: 3rem;
+        }
+    }
+}

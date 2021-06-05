@@ -1,0 +1,45 @@
+.main {
+
+.main__title {
+    font-family: $oldstandard;
+    color: $smokyblack;
+    font-size: $xx-large;
+    padding: 1rem;
+}
+
+.main__text {
+    font-family: $raleway;
+    font-size: $medium;
+    color: $quicksilver;
+    padding: 1rem;
+}
+
+.main__button {
+    margin: 1rem;
+}
+
+}
+
+@media (min-width: 992px) {
+    .main {
+
+        .main__title {
+            font-family: $oldstandard;
+            color: $smokyblack;
+            font-size: $xxx-large;
+            padding: 3rem 6rem;
+        }
+        
+        .main__text {
+            font-family: $raleway;
+            font-size: $x-large;
+            color: $quicksilver;
+            padding: 5rem 6rem;
+        }
+        
+        .main__button {
+            margin: 2rem 6rem;
+        }
+        
+        }
+}

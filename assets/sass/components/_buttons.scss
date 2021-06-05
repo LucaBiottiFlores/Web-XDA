@@ -1,0 +1,25 @@
+//primary button style
+
+.primary-btn {
+    color: $smokyblack;
+    background-color: $white;
+    border-radius: 0%;
+    border-color: $smokyblack;
+    font-family: $raleway;
+    font-weight: $bold;
+    border-style: solid;
+    border-width: 1px;
+    padding: 7px 10px;
+        &:hover {
+            border-color: $lightgray;
+            background-color: $white;
+            color: $smokyblack;
+        }
+        &:focus {
+            background-color: $white;
+            border-color: $lightgray;
+            color: $lightgray;
+            box-shadow: none;
+        }
+
+}
